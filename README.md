@@ -4,6 +4,11 @@ The purpose of this analysis is to provide capabilities to visualize the yearly 
 We pulled data for twelve separate companies, all identifiable by unique tickers. The data provided to us was formatted in rows. Each row provided the ticker, the date corresponding to when data was collected, the opening, high, low, and closing prices, as well as the adjusted close price, and finally the sheer volume of each stock traded on that exact date.
 ## Results
 Apparently, 2017 was generally a better year for the twelve stocks we kept tabs on. All but one ticker ended up providing positive returns by the end of the year. However, in 2018, all stocks but two ended with negative returns. So, we can take away a good lesson when it comes to the stock market: movement is unpredictable - even two years can end up looking totally different from one another.
+### Returns in 2017
+![Outcomes of Returns in 2017](Stock_Returns_2017.png)
+### Returns in 2018
+![Outcomes of Returns in 2018](VBA_Challenge_2018.png)
+
 Using the *startTime = Timer* line of code in the start of my code, and following up using *endTime = Timer*, I was able to set variables to keep time for me as my code performed its analysis. I could return the actual amount of time it took to run by completing my code with the following line:
 
 'MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)'
