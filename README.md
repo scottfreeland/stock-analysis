@@ -5,9 +5,9 @@ We pulled data for twelve separate companies, all identifiable by unique tickers
 ## Results
 Apparently, 2017 was generally a better year for the twelve stocks we kept tabs on. All but one ticker ended up providing positive returns by the end of the year. However, in 2018, all stocks but two ended with negative returns. So, we can take away a good lesson when it comes to the stock market: movement is unpredictable - even two years can end up looking totally different from one another.
 ### Returns in 2017
-![Outcomes of Returns in 2017](Stock_Returns_2017.png)
+![Outcomes of Returns in 2017](Resources/Stock_Returns_2017.png)
 ### Returns in 2018
-![Outcomes of Returns in 2018](VBA_Challenge_2018.png)
+![Outcomes of Returns in 2018](Resources/VBA_Challenge_2018.png)
 
 Using the *startTime = Timer* line of code in the start of my code, and following up using *endTime = Timer*, I was able to set variables to keep time for me as my code performed its analysis. I could return the actual amount of time it took to run by completing my code with the following line:
 
@@ -15,9 +15,9 @@ Using the *startTime = Timer* line of code in the start of my code, and followin
 
 Provided here are the two runtimes for analysis performed on the data.
 ### Running Code on 2017 Data
-![Duration for Running Code on 2017 Data](VBA_Challenge_2017.png)
+![Duration for Running Code on 2017 Data](Resources/VBA_Challenge_2017.png)
 ### Running Code on 2018 Data
-![Duration for Running Code on 2018 Data](VBA_Challenge_2018.png)
+![Duration for Running Code on 2018 Data](Resources/VBA_Challenge_2018.png)
 
 ## Summary
 ### Refactoring Code: Advantages and Disadvantages
